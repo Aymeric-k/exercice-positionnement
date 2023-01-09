@@ -30,3 +30,19 @@ footer{
     background-color: orange;
 }
 
+/* -------------------      Exercice     2 -------------------- */
+#div1exo2{
+    position: relative;
+    width: 50%;
+}
+
+#div2exo2{
+    position: relative;
+    left: 14%
+}
+
+#div3exo2{
+    position: relative;
+    right : 115px
+}
+
