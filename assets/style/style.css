@@ -45,4 +45,15 @@ footer{
     position: relative;
     right : 115px
 }
+/* -------------------      Exercice     3 -------------------- */
+
+#div1exo3{
+    position: relative;
+    width: 50%;
+}
+#div3exo3{
+    position: absolute;
+    top: 130px;
+    left: 35%;
+}
 
