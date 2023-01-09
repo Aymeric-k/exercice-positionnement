@@ -1,45 +1,4 @@
-/* ------------------- Mise en page-------------------- */
-header{
-    height: 250px;
-    background-image: url(../img/matrix.jpg);
-    color: white;
-    margin: 0 auto;
-}
 
-h1{
-    padding-top: 20px;
-    text-align: center;
-}
-footer{
-    position: sticky;
-    margin-top: 50px;
-    padding: 30px ;
-    background-color: #222222;
-    color: #efefef;
-    display: flex;
-    justify-content: space-evenly;
-}
-.vert{
-    background-color: greenyellow;
-}
-.bleu{
-    background-color: rgba(47, 54, 255, 0.773);
-}
-.orange{
-    background-color: orange;
-}
-.aqua{
-    background-color: rgb(177, 240, 240);
-}
-.red{
-    background-color: red;
-}
-.moyen{
-    height: 120vh;
-}
- #title{
-    padding-top: 100px;
- }
 /* -------------------      Exercice     1-------------------- */
 
 div{
@@ -58,7 +17,7 @@ div{
 
 #div2exo2{
     position: relative;
-    left: 14%
+    left: 45px;
 }
 
 #div3exo2{
