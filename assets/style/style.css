@@ -32,6 +32,10 @@ footer{
 .aqua{
     background-color: rgb(177, 240, 240);
 }
+.red{
+    background-color: red;
+}
+
 
 /* -------------------      Exercice     2 -------------------- */
 #div1exo2{
@@ -48,6 +52,7 @@ footer{
     position: relative;
     right : 115px
 }
+
 /* -------------------      Exercice     3 -------------------- */
 
 #div1exo3{
@@ -59,7 +64,8 @@ footer{
     top: 130px;
     left: 35%;
 }
-/* -------------------      Exercice    4 -------------------- */
+
+/* -------------------      Exercice     4 ------------------- */
 
 #div1exo4{
     position: relative;
@@ -77,4 +83,79 @@ footer{
     top : 145px;
     left: 150px; 
 }
+
+/* -------------------      Exercice 5 Relatif ------------------- */
+
+#div1exo5{
+    position:relative;
+    width: 600px;
+    height: 600px;
+}
+
+#div2exo5{
+    position:relative;
+    width: 250px;
+    height: 250px;
+    left: 150px;
+}
+
+#div3exo5{
+    position:relative;
+    width: 250px;
+    height: 250px;
+    right: 150px;
+    top: -250px;    
+    
+}
+#div4exo5{
+    position:relative;
+    width: 250px;
+    height: 250px;
+    left: 150px;
+    bottom: 200px; 
+}
+#div5exo5{
+
+    position: relative;
+    width: 250px;
+    height: 250px;
+    right:150px;
+    top: -450px;   
+    
+}
+/* -------------------      Exercice 5 Absolute ------------------- */
+
+#div1exo5bis{
+    position: absolute;
+    width: 600px;
+    height: 600px;
+}
+
+#div2exo5bis{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+}
+
+#div3exo5bis{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    right: 20px;
+}
+#div4exo5bis{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    bottom: 20px;
+}
+#div5exo5bis{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    right: 20px;
+    bottom: 20px;
+}
+
+
 
