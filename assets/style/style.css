@@ -1,24 +1,23 @@
-
-/* -------------------      Exercice     1-------------------- */
-
-div{
-    border:  2px solid black;
-    padding: 30px;
-    margin :auto ;
-    
+/* ------------------- Mise en page-------------------- */
+header{
+    height: 250px;
+    background-image: url(../img/matrix.jpg);
+    color: white;
+    margin: 0 auto;
 }
+
 h1{
+    padding-top: 20px;
     text-align: center;
 }
 footer{
     position: sticky;
-    
     margin-top: 50px;
-    padding: 50px 50px;
-    text-align: center;
+    padding: 30px ;
     background-color: #222222;
     color: #efefef;
-
+    display: flex;
+    justify-content: space-evenly;
 }
 .vert{
     background-color: greenyellow;
@@ -34,6 +33,20 @@ footer{
 }
 .red{
     background-color: red;
+}
+.moyen{
+    height: 120vh;
+}
+ #title{
+    padding-top: 100px;
+ }
+/* -------------------      Exercice     1-------------------- */
+
+div{
+    border:  2px solid black;
+    padding: 30px;
+    margin :auto ;
+    
 }
 
 
@@ -220,4 +233,35 @@ footer{
 }
 #div5exo7{
     right: -2px;
+}
+
+/* -------------------    Exercice 8  ------------------- */
+
+nav{
+    position: sticky;
+    background-color: orange;
+    top: 5px;
+    width: 25%;
+    border-radius: 10px;
+}
+
+.grand{
+    height:350vh;
+}
+.contenu p{
+    position: absolute;
+    text-align: left;
+    width: 30%;
+    right: 500px;
+    top: 150px;
+}
+
+#menu ul a {
+    text-decoration: none;
+    list-style-type: none;
+    background-color: orange;
+}
+#stickyfooter{
+    position: sticky;
+    bottom: 0;
 }
