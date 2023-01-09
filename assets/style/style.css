@@ -198,4 +198,26 @@ footer{
     
 }
 
+/* -------------------    Exercice 7  ------------------- */
 
+.gauche{
+    float:left;
+    width: 125px;
+    height: 125px; 
+}
+
+.droite{
+    position: relative;
+    float :right;
+    width: 125px;
+    height: 125px;
+    top: 121px;
+}
+#div3exo7{
+    height:200px;
+    position: relative;
+    top:123px;
+}
+#div5exo7{
+    right: -2px;
+}
