@@ -1,0 +1,32 @@
+
+/* -------------------      Exercice     1-------------------- */
+
+div{
+    border:  2px solid black;
+    padding: 30px;
+    margin :auto ;
+    
+}
+h1{
+    text-align: center;
+}
+footer{
+    position: sticky;
+    
+    margin-top: 50px;
+    padding: 50px 50px;
+    text-align: center;
+    background-color: #222222;
+    color: #efefef;
+
+}
+.vert{
+    background-color: greenyellow;
+}
+.bleu{
+    background-color: rgba(47, 54, 255, 0.773);
+}
+.orange{
+    background-color: orange;
+}
+
