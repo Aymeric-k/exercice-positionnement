@@ -29,6 +29,9 @@ footer{
 .orange{
     background-color: orange;
 }
+.aqua{
+    background-color: rgb(177, 240, 240);
+}
 
 /* -------------------      Exercice     2 -------------------- */
 #div1exo2{
@@ -55,5 +58,23 @@ footer{
     position: absolute;
     top: 130px;
     left: 35%;
+}
+/* -------------------      Exercice    4 -------------------- */
+
+#div1exo4{
+    position: relative;
+    width: 50%;
+}
+
+#div2exo4{
+    position: absolute;
+    top: 150px;
+    left: 25%;
+}
+
+#div4exo4{
+    position: absolute;
+    top : 145px;
+    left: 150px; 
 }
 
